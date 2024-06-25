@@ -51,6 +51,16 @@ nav a{
     margin-top: 1em;
 }
 
+nav a::before{
+    content: url("");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/ROMA/assets/img/heart.svg) no-repeat;
+    background-size: contain;
+    float: left;
+}
+
 /*---MAIN SECTION---*/
 
 main{
