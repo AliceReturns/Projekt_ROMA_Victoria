@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "SantioBlack";
+    src: url("../fonts/Santio\ Black.ttf");
+}
+@font-face{
+    font-family: "SantioBold";
+    src: url("../fonts/Santio\ Bold.ttf");
+}
+@font-face{
+    font-family: "Santiolight";
+    src: url("../fonts/Santio\ light.ttf");
+}
+@font-face{
+    font-family: "Santioregular";
+    src: url("../fonts/Santio\ regular.ttf");
+}
+
