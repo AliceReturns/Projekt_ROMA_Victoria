@@ -216,13 +216,31 @@ footer span{
     color: rgb(0, 183, 79);
 }
 
+footer a{
+    text-decoration: none;
+}
+
+footer span:hover{
+    color: rgb(0, 183, 79);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 183, 79);
+}
+
 div:last-of-type>p{
     text-align: center;
 }
 
 button{
-    border-color: white;
-    background-color: ;
+    border: solid white;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 2em;
+}
 
+button:hover{
+    box-shadow: 5px 5px;
+    padding: 15px 32px;
 }
 
