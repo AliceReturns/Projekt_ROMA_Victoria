@@ -202,7 +202,7 @@ main div:nth-of-type(1){
 /*---KID BG SECTION---*/
 
 .ChildrenIMG{
-    background-image: url(/ROMA/assets/img/see.png);
+    background-image: url("/ROMA/assets/img/see.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
