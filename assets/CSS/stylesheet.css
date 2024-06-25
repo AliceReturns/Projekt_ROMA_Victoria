@@ -14,6 +14,10 @@
     font-family: "Santioregular";
     src: url("../fonts/Santio\ regular.ttf");
 }
+@font-face{
+    font-family: "Parcifico";
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
 
 *{
     margin: 0;
@@ -81,6 +85,7 @@ section{
 }
 
 em{
+    font-family: "Parcifico";
     margin-top: 30em;
     color: rgb(255, 200, 0);
 }
