@@ -90,10 +90,11 @@ em{
     margin-top: 15em;
     padding-left: 3em;
     padding-right: 22em;
-    font-family: "SantioRegular";
+    font-family: "SantioBlack";
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
+    word-spacing: 8px;
 }
 
 /*---SECTION 02---*/
@@ -123,7 +124,7 @@ em{
 
 .section03 p{
     color: lightpink;
-    margin-top: 0.2em;
+    margin-top: 0.9em;
 }
 
 .section03 h2{
@@ -138,31 +139,44 @@ em{
 }
 
 .section04 p, h2:nth-of-type(3){
-    color: rgb(182, 235, 146);
+    color: rgb(55, 196, 135);
+}
+
+.section04 h2{
+    font-size: 150px;
+    margin-top: 0.2em;
+    color: rgb(55, 196, 135);
 }
 
 /*---SECTION 05---*/
 
+.section05{
+    margin-top: 30em;
+}
+
 .section05 p{
     color: rgb(31, 157, 230);
-    font-family: "SantioRegular";
+    font-family: "SantioBlack";
+    font-size: 32px;
     text-transform: uppercase;
     text-align: left;
+    word-spacing: 8px;
+    padding-right: 7em;
 }
 
 /*---SECTION 06---*/
 
 .section06{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-family:"SantioBold";
+    font-size: 50px;
     text-align: left;
     text-transform: uppercase;
     color: white;
-    padding-left: 0;
-    padding-right: 80em;
+    margin: 9em;
+    padding-right: 10em;
 }
 
-div:first-of-type{
+main div:nth-of-type(1){
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,21 +184,17 @@ div:first-of-type{
     padding-left: 30em;
 }
 
-
-
 /*---KID BG SECTION---*/
 
 .ChildrenIMG{
     background-image: url(/ROMA/assets/img/see.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 40em;
     padding-bottom: 18em;
-}
-
-.ChildrenIMG img{
-
+    width: 100vw;
+    height: 100vh;
 }
 
 /*---FOOTER BG SECTION---*/
@@ -206,6 +216,8 @@ div:last-of-type>p{
 }
 
 button{
+    border-color: white;
+    background-color: ;
 
 }
 
